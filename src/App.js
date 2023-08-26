@@ -1,25 +1,30 @@
-import logo from './logo.svg';
-import './App.css';
+import FirstScreen from "./components/first-screen";
+import ModalMenu from './components/modal-menu';
+import Exibitions from './components/exibitions';
+import Events from './components/events';
+import Visit from './components/visit';
+import News from './components/news';
+import Subscribe from "./components/subscribe";
+import Footer from './components/footer';
+import { useState } from 'react';
+import './styles/app-styles.scss';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+function App () {
+   const [modalActive, setModalActive] = useState(false);
+   return(
+      <div className="main">
+         <ModalMenu modalActive={modalActive} setModalActive={setModalActive} />
+         <div className="mainflow">
+            <FirstScreen modalActive={modalActive} setModalActive={setModalActive} />
+            <Exibitions />
+            <Events />
+            <Visit />
+            <News />
+            <Subscribe />
+            <Footer />
+         </div>
+      </div>
+   );
+};
 
 export default App;
