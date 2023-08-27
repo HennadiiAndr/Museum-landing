@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/Museum-landing/static/css/main.9ddb5100.css",
+    "main.js": "/Museum-landing/static/js/main.ac1d37e8.js",
+    "static/media/img_07.png": "/Museum-landing/static/media/img_07.8d6b7e9a0bd5cff65b49.png",
+    "static/media/img_3.png": "/Museum-landing/static/media/img_3.fc83ec84bf9f2f343993.png",
+    "static/media/img_menu.png": "/Museum-landing/static/media/img_menu.a8a5a69588ceb29b57b3.png",
+    "static/media/img_01.png": "/Museum-landing/static/media/img_01.0399ce3856d8833bcbe9.png",
+    "static/media/img_09.png": "/Museum-landing/static/media/img_09.ce1259ee07b5c9937729.png",
+    "static/media/img_02.png": "/Museum-landing/static/media/img_02.d6a95e6321fee4fbf046.png",
+    "static/media/img_08.png": "/Museum-landing/static/media/img_08.6985d97c775e4ed67f0e.png",
+    "static/media/img_06.png": "/Museum-landing/static/media/img_06.e8c92a3ff389359b79ac.png",
+    "static/media/img_05.png": "/Museum-landing/static/media/img_05.641cd637c69589375f20.png",
+    "index.html": "/Museum-landing/index.html",
+    "main.9ddb5100.css.map": "/Museum-landing/static/css/main.9ddb5100.css.map",
+    "main.ac1d37e8.js.map": "/Museum-landing/static/js/main.ac1d37e8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9ddb5100.css",
+    "static/js/main.ac1d37e8.js"
+  ]
+}
